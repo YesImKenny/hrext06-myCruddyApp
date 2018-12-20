@@ -35,4 +35,10 @@ $(document).ready(function(){
     localStorage.removeItem(value);
   });
 
+  // clear local storage
+  $('.btn-clear').on('click', function(){
+    num = 0;
+    localStorage.clear();
+  });
+
 });
